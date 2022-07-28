@@ -1,6 +1,6 @@
 {
   "name": "inline-json-schema",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A library for inline JSON schema descriptions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,6 +13,9 @@
     "validator",
     "validation",
     "schema"
+  ],
+  "files": [
+    "lib"
   ],
   "scripts": {
     "build": "tsc",
