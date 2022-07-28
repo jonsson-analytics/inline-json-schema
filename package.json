@@ -1,6 +1,6 @@
 {
   "name": "inline-json-schema",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A library for inline JSON schema descriptions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,10 +8,15 @@
   "author": "Nils Jonsson <nils.jonsson@jonsson-analytics.com>",
   "license": "MIT",
   "private": false,
-  "keywords": ["json", "validator", "validation", "schema"],
+  "keywords": [
+    "json",
+    "validator",
+    "validation",
+    "schema"
+  ],
   "scripts": {
     "build": "tsc",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
