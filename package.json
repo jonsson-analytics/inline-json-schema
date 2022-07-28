@@ -1,6 +1,6 @@
 {
   "name": "inline-json-schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library for inline JSON schema descriptions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublish": "npm run build",
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
