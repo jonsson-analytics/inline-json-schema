@@ -1,0 +1,10 @@
+{
+  "name": "inline-json-schema",
+  "version": "0.0.0",
+  "description": "A library for inline JSON schema descriptions.",
+  "main": "index.js",
+  "repository": "https://github.com/jonsson-analytics/inline-json-schema",
+  "author": "Nils Jonsson <nils.jonsson@jonsson-analytics.com>",
+  "license": "MIT",
+  "private": false
+}
